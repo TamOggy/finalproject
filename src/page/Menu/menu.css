@@ -1,0 +1,81 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height:100% ;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1; 
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .container-search {
+    position: relative; 
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  
+  .container-search input {
+    width: 100%;
+    padding: 10px 40px 10px 15px; 
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    font-size: 16px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    color: #888; 
+  }
+  
+  .search-suggestions {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background: white; 
+    max-height: 200px; 
+    overflow-y: auto; 
+    position: absolute; 
+    width: 100%; 
+    z-index: 1000; 
+  }
+  
+  .search-suggestion-item {
+    padding: 10px;
+    cursor: pointer; 
+  }
+  
+  .search-suggestion-item:hover {
+    background-color: #f0f0f0; 
+}

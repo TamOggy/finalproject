@@ -1,0 +1,80 @@
+[
+    {
+        "id": "1",
+        "name": "Nguyễn Huệ",
+        "address": "99 Nguyễn Huệ, Quận 1, Tp. Hồ Chí Minh",
+        "tel": "+842838210105",
+        "open": "6:30 - 22:30",
+        "position": [10.773432145329773, 106.703840041107]
+    },
+    {
+        "id": "2",
+        "name": "Phan Xích Long",
+        "address": "214 -216 Phan Xích Long, Quận Phú Nhuận, Tp. Hồ Chí Minh",
+        "tel": "+842835176461",
+        "open": "7:00 - 22:00",
+        "position":[10.79740260603314, 106.68999253767129]
+    },
+    {
+        "id": "3",
+        "name": "Thảo Điền",
+        "address": "21 Thảo Điền, Quận 2, Tp. Hồ Chí Minh",
+        "tel": "+842837442040",
+        "open": "6:00 - 21:30",
+        "position":[10.803336937505668, 106.73757139534287]
+    },
+    {
+        "id": "4",
+        "name": "Sân Bay Tân Sơn Nhất",
+        "address": "A2, Tầng trệt, Khu vực thương mại Nhà giữ xe Ga Quốc Nội, Sân bay Tân Sơn Nhất, 45 Trường Sơn, Tân Bình, Tp. Hồ Chí Minh",
+        "tel": "+842836209020",
+        "open": "6:00 - 22:00",
+        "position":[10.814010811160896, 106.66270176334874]
+    },
+    {
+        "id": "5",
+        "name": "Nguyễn Văn Trỗi",
+        "address": "66 Nguyễn Văn Trỗi, Quận Phú Nhuận, Tp. Hồ Chí Minh",
+        "tel": "+842838422171",
+        "open": "7:00 - 22:00",
+        "position":[10.795059535008349, 106.67704136650707]
+    },
+    {
+        "id": "6",
+        "name": "Nesta Hotel",
+        "address": "Nesta Hotel, 268 Võ Nguyên Giáp, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng",
+        "tel": "02363227186",
+        "open": "7:00 - 22:00",
+        "position": [16.054244240910663, 108.24745329541966]
+    },
+    {
+        "id": "7",
+        "name": "Vinwonders",
+        "address": "FB-08, Khu Công viên giải trí VinWonders, Nha Trang",
+        "tel": "+842583500066",
+        "open": "8:00 - 19:00",
+        "position": [12.342179292640965, 109.23048202206968]
+    },
+    {
+        "id": "8",
+        "name": "Royal City",
+        "address": "SO-18, Tòa R3, Royal City, 72A Nguyễn Trãi, Quận Thanh Xuân, Hà Nội",
+        "tel": "+842466664402",
+        "open": "7:00 - 22:00",
+        "position": [21.26043153811839, 105.83724519423734]
+    },    {
+        "id": "9",
+        "name": "Ecopark",
+        "address": "Công Viên Mùa Hạ, Khu đô thị Ecopark, Văn Giang, Hưng Yên",
+        "tel": "+842212200888",
+        "open": "7:00 - 21:30",
+        "position": [21.228220254930147, 105.96821084580718]
+    },    {
+        "id": "10",
+        "name": "Tasco Mall",
+        "address": "Gian hàng 105A, TTTM TASCO Mall, Hà Nội",
+        "tel": "+842432012790",
+        "open": "7:00 - 21:30",
+        "position": [21.31001291794441, 105.85845270327646]
+    }
+]

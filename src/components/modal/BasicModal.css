@@ -1,0 +1,20 @@
+
+
+.box{
+    height: 90vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    
+}
+
+.box img {
+    width: 100%;
+}

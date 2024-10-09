@@ -1,0 +1,46 @@
+.locationpage {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    left: 5%;
+    z-index: -1;
+}
+
+
+.location-list {
+    width: 20%;
+    height: 600px;
+    background-color: white;
+    color: rgb(94, 53, 27);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.hide {
+    width: 100%;
+    display: none;
+    margin: 5px 30px 5px;
+    font-size: 12px;
+    border-left: 2px solid;
+    p {
+        padding: 5px;
+    }
+    color: rgb(94, 53, 27);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.map {
+    width: 70%;
+}

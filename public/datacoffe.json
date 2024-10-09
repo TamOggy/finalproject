@@ -1,0 +1,627 @@
+[
+    {
+    "id": 1,
+    "name": "Coffe",
+    "description": "Coffe",
+    "price":"15000" ,
+    "type": "Coffe",
+    "img":"/cafe.jpg",
+    "option": [
+    "not sweet",
+    "sweet"
+    ]
+    },
+    {
+    "id": 2,
+    "name": "Cà phê sữa",
+    "description": "Coffe",
+    "price":"25000" ,
+    "type": "Coffe",
+    "img":"/cafesua.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id": 3,
+    "name": "Cappuccino Coffe",
+    "description": "Coffe",
+    "price":"50000" ,
+    "type": "Coffe",
+    "img":"./capuchino.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":5 ,
+    "name": "Nước ép cam",
+    "description": "Juice",
+    "price":"20000" ,
+    "type": "Juice",
+    "img":"./epcam.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":6 ,
+    "name": "Nước ép cà rốt",
+    "description": "Juice",
+    "price":"30000" ,
+    "type": "Juice",
+    "img":"/epcarot.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":7 ,
+    "name": "Nước ép cà chua",
+    "description": "Juice",
+    "price":"30000" ,
+    "type": "Juice",
+    "img":"/epcachua.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":8 ,
+    "name": "Nước ép táo",
+    "description": "Juice",
+    "price":"35000" ,
+    "type": "Juice",
+    "img":"/eptao.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id": 9,
+    "name": "Nước ép dưa hấu",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"epduahau.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":10 ,
+    "name": "Nước ép bưởi",
+    "description": "Juice",
+    "price":"30000" ,
+    "type": "Juice",
+    "img":"epbuoi.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":11 ,
+    "name": "Nước ép dứa",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"epthom.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":12 ,
+    "name": "Nước ép nho",
+    "description": "Juice",
+    "price":"35000" ,
+    "type": "Juice",
+    "img":"./epnho.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id": 13 ,
+    "name": "Nước ép bí đao",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"/epbidau.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":14 ,
+    "name": "Nước ép ổi",
+    "description": "Juice",
+    "price":"30000" ,
+    "type": "Juice",
+    "img":"/epoi.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id": 15 ,
+    "name": "Nước ép dưa leo",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"epdualeo.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":16 ,
+    "name": "Nước ép lựu",
+    "description": "Juice",
+    "price":"40000" ,
+    "type": "Juice",
+    "img":"/epluu.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":17 ,
+    "name": "Nước ép dâu",
+    "description": "Juice",
+    "price":"35000" ,
+    "type": "Juice",
+    "img":"/epdautay.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":18 ,
+    "name": "Nước ép cherry",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"/epcherry.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":19 ,
+    "name": "Sinh tố bơ",
+    "description": "Smoothie",
+    "price":"40000" ,
+    "type": "Smoothie",
+    "img":"/sinhtobo.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":20 ,
+    "name": "Sinh tố mãng cầu",
+    "description": "Smoothie",
+    "price":"40000" ,
+    "type": "Smoothie",
+    "img":"/sinhtomangcau.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id": 21,
+    "name": "Sinh tố dưa hấu",
+    "description": "Smoothie",
+    "price":"30000" ,
+    "type": "Smoothie",
+    "img":"/sinhtoduahau.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":22 ,
+    "name": "Sinh tố đu đủ",
+    "description": "Smoothie",
+    "price":"25000" ,
+    "type": "Smoothie",
+    "img":"/sinhtodudu.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":23 ,
+    "name": "Sinh tố cà chua",
+    "description": "Smoothie",
+    "price":"30000" ,
+    "type": "Smoothie",
+    "img":"/sinhtocachua.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":24 ,
+    "name": "Sinh tố xoài",
+    "description": "Smoothie",
+    "price":"30000" ,
+    "type": "Smoothie",
+    "img":"/sinhtoxoai.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    },
+    {
+    "id":25 ,
+    "name": "Sinh tố thanh long",
+    "description": "Smoothie",
+    "price":"30000" ,
+    "type": "Smoothie",
+    "img":"/sinhtothanhlong.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":26 ,
+    "name": "Sinh tố việt quất",
+    "description": "Smoothie",
+    "price":"50000" ,
+    "type": "Smoothie",
+    "img":"/sinhtovietquat.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":27 ,
+    "name": "Sinh tố cà rốt",
+    "description": "Smoothie",
+    "price":"30000" ,
+    "type": "Smoothie",
+    "img":"/sinhtocarot.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":28 ,
+    "name": "Sinh tố sầu riêng",
+    "description": "Smoothie",
+    "price":"55000" ,
+    "type": "Smoothie",
+    "img":"sinhtosaurieng.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":29 ,
+    "name": "Sinh tố chanh leo",
+    "description": "Smoothie",
+    "price":"40000" ,
+    "type": "Smoothie",
+    "img":"sinhtochanhday.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":30 ,
+    "name": "Sinh tố sapoche",
+    "description": "Smoothie",
+    "price":"35000" ,
+    "type": "Smoothie",
+    "img":"/sinhtosapoche.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":31 ,
+    "name": "Sinh tố kiwi",
+    "description": "Smoothie",
+    "price":"45000" ,
+    "type": "Smoothie",
+    "img":"/sinhtokiwi.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":32 ,
+    "name": "Sinh tố dưa gang",
+    "description": "Smoothie",
+    "price":"35000" ,
+    "type": "Smoothie",
+    "img":"/sinhtoduagang.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":33,
+    "name": "Sinh tố dừa",
+    "description": "Smoothie",
+    "price":"40000" ,
+    "type": "Smoothie",
+    "img":"/sinhtodua.jpg",
+    "option": [
+    "sweet",
+    "not sweet"
+    ]
+    }
+    ,
+    {
+    "id":34 ,
+    "name": "Sting",
+    "description": "Bottled water",
+    "price":"15000" ,
+    "type": "Bottled water",
+    "img":"/sting.jpg",
+    "option": [
+    "cold",
+    "not cold"
+    ]
+    }
+    ,
+    {
+    "id":35 ,
+    "name": "Ô long",
+    "description": "Bottled water",
+    "price":"15000" ,
+    "type": "Bottled water",
+    "img":"/olong.jpg",
+    "option": [
+    "cold",
+    "not cold"
+    ]
+    }
+    ,
+    {
+    "id":36 ,
+    "name": "CocaCola",
+    "description": "Bottled water",
+    "price":"15000" ,
+    "type": "Bottled water",
+    "img":"/cocacola.jpg",
+    "option": [
+    "cold",
+    "not cold"
+    ]
+    }
+    ,
+    {
+    "id":37,
+    "name": "Trà Hoa Cúc Táo Đỏ",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/trahoacuc.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":38 ,
+    "name": "Trà Chanh Hoa Đậu Biếc",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/trahoadaubiet.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":39 ,
+    "name": "Trà Hoa Hồng Ngọc Nữ ",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/trahoahong.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":40 ,
+    "name": "Trà Cam Quế Hoa Hồng",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/tracamque.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":41,
+    "name": "Trà Gạo Lứt Đậu Đen Ngũ Vị",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/tradauden.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":42 ,
+    "name": "Bách Hoa Trà Thảo Mộc",
+    "description": "Tea",
+    "price":"75000" ,
+    "type": "Tea",
+    "img":"/trathaomoc.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":43 ,
+    "name": "Bánh flan",
+    "description": "Food",
+    "price":"10000" ,
+    "type": "Food",
+    "img":"/banhflan.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":44 ,
+    "name": "Tiramisu",
+    "description": "Food",
+    "price":"15000" ,
+    "type": "Food",
+    "img":"/banhtiramisu.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":45 ,
+    "name": "Bánh Cookies",
+    "description": "Food",
+    "price":"5000" ,
+    "type": "Food",
+    "img":"/banhcookie.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":46 ,
+    "name": "Macaron",
+    "description": "Food",
+    "price":"15000" ,
+    "type": "Food",
+    "img":"/banhmacaron.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":47 ,
+    "name": "Mousse cake",
+    "description": "Food",
+    "price":"15000" ,
+    "type": "Food",
+    "img":"/banhmoussecake.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":48 ,
+    "name": "Muffin và cupcake",
+    "description": "Food",
+    "price":"20000" ,
+    "type": "Food",
+    "img":"/bahmuffin.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":49 ,
+    "name": "Chocolate tart",
+    "description": "Food",
+    "price":"25000" ,
+    "type": "Food",
+    "img":"/banhChocolate.jpeg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ,
+    {
+    "id":50 ,
+    "name": "Dừa tươi",
+    "description": "Juice",
+    "price":"25000" ,
+    "type": "Juice",
+    "img":"/duatuoi.jpg",
+    "option": [
+    "",
+    ""
+    ]
+    }
+    ]

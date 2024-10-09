@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "title": "Cà phê Espresso của chúng tôi, Latte của bạn",
+        "description": "Cà phê espresso đậm vị và bốc hơi sữa - ngon tuyệt hảo khi thưởng thức riêng hay khi thêm đường.",
+        "details": {
+            "img":"../../../public/lateinbox.jpg",
+            "row1":"Latte Cà phê là gì?",
+            "row2":"Latte hay cafe latte là một thức uống nổi tiếng có nguồn gốc từ Ý với thành phần chính bao gồm 1 shot cà phê đen kết hợp cùng vị ngọt, béo ngậy của sữa. Tại Scandinavie và Bắc Âu, tên gọi latte chỉ một loại đồ uống kết hợp giữa espresso và sữa, trong khi latte của người Pháp là sự kết hợp giữa espresso và sữa đánh (khuấy).",
+            "row3":"Món đồ uống này có được kết hợp các nguyên liệu với tỉ lệ phù hợp cộng với cách bài trí bắt mắt vừa tạo nên phần nhìn hấp dẫn, vừa mang đến hương vị tuyệt vời, được đánh giá cao từ những người yêu thích cafe.",
+            "row4":"Ngoài ra, điểm nổi bật khi nhắc tới latte chính là nghệ thuật tạo hình. Hình vẽ được tạo lên bằng cách rót sữa (sau khi được gia nhiệt làm nóng sữa với phương pháp kỹ thuật steamed milk hoặc frothed milk) để tạo nên nhiều hình như lá, tim, khuôn mặt,…"
+        },
+        "btn": "TÌM HIỂU THÊM"
+    },
+    {
+        "id": "2",
+        "title": "Về chúng tôi",
+        "description": "Lịch sử phát triển hạt cà phê không chỉ đơn giản như vẻ bề ngoài chúng ta nhìn thấy...",
+        "details":{
+            "img": "../../../public/aboutdetail.jpg",
+            "row2":"Vào thời đó, công ty là một cửa hàng đơn lẻ tại Chợ Pike Place lâu đời ở Seattle. Chỉ từ một mặt tiền cửa hàng hẹp, Starbucks đã cung cấp một số loại cà phê nguyên hạt rang tươi ngon nhất thế giới. Cái tên Starbucks mà Moby Dick đưa ra đã gợi lên sự lãng mạn của biển khơi và truyền thống đi biển của những người buôn bán cà phê thuở ban đầu.",
+            "row3":"Năm 1981, lần đầu tiên ông Howard Schultz (chủ tịch kiêm giám đốc điều hành Starbucks) đã bước vào cửa hàng Starbucks. Từ ly cà phê Sumatra đầu tiên của mình, Howard đã bị thu hút vào Starbucks và một năm sau ông gia nhập công ty.",
+            "row4":"Một năm sau, năm 1983, Howard đã đi tới Ý và bị quyến rũ bởi quán cà phê Ý cũng như sự lãng mạn của trải nghiệm thưởng thức cà phê. Ông đã có tầm nhìn là đem quán cà phê Ý về Hoa Kỳ. Một nơi để trao đổi và cảm nhận về cộng đồng. Một nơi thứ ba giữa công ty và nhà. Ông đã rời khỏi Starbucks trong một thời gian ngắn để bắt đầu quán cà phê Il Giornale riêng của mình và trở lại vào tháng 8 năm 1987 để mua Starbucks với sự trợ giúp của các nhà đầu tư địa phương."
+        },
+        "btn":"BIẾT THÊM VỀ CHÚNG TÔI"
+    }
+]
