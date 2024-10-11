@@ -620,8 +620,37 @@
     "type": "Juice",
     "img":"/duatuoi.jpg",
     "option": [
-    "",
-    ""
+    "not sweet",
+    "sweet"
     ]
     }
+    ,
+    {
+    "id":50 ,
+    "name": "Sữa tươi",
+    "description": "Bottled water",
+    "price":"20000" ,
+    "type": "Juice",
+    "img":"/suatuoi.jpg",
+    "option": [
+    "not sweet",
+    "sweet"
     ]
+    }
+    ,
+    {
+    "id":50 ,
+    "name": "Trà Lipton",
+    "description": "Tea",
+    "price":"20000" ,
+    "type": "Tea",
+    "img":"/tralipton.jpg",
+    "option": [
+    "not sweet",
+    "sweet"
+    ]
+    }
+
+    ]
+    
+    

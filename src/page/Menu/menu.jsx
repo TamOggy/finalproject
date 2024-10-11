@@ -4,12 +4,16 @@ import DrinkGrid from "../../components/DrinkGird/DrinkGrid";
 import cafedata from "../../../public/datacoffe.json";
 import "./menu.css";
 
-const Menu = () => {
+const Menu = ({onAddToCart}) => {
   const [filteredDrinks, setFilteredDrinks] = useState(cafedata);
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
+
+
+  const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
+  const [selectedDrink, setSelectedDrink] = useState(null);
 
   const handleFilterChange = (filter) => {
     if (filter) {
@@ -27,30 +31,27 @@ const Menu = () => {
   };
 
   const handleViewDetails = (drink) => {
-    alert(
-      `Chi tiết về: ${drink.name}\nGiá: ${drink.price}\nMô tả: ${drink.description}`
-    );
+    setSelectedDrink(drink); 
+    setIsDetailModalOpen(true);
   };
 
-  // Xử lý gợi ý tìm kiếm
+  
   useEffect(() => {
     if (searchTerm.trim() !== "") {
       const filteredSuggestions = cafedata.filter((drink) =>
         drink.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
-      setSuggestions(filteredSuggestions.slice(0, 5)); // Giới hạn gợi ý
-    } else {
+      setSuggestions(filteredSuggestions.slice(0, 5)); 
       setSuggestions([]);
     }
   }, [searchTerm]);
 
-  // Hàm tìm kiếm khi nhấn vào icon
   const handleSearch = () => {
     const filteredDrinks = cafedata.filter((drink) =>
       drink.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredDrinks(filteredDrinks);
-    setSuggestions([]); // Ẩn gợi ý sau khi tìm kiếm
+    setSuggestions([]); 
   };
 
   const handleSearchChange = (event) => {
@@ -63,7 +64,6 @@ const Menu = () => {
     setSuggestions([]);
   };
 
-  // Phân trang
   const totalPages = Math.ceil(filteredDrinks.length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -80,33 +80,34 @@ const Menu = () => {
   return (
     <div className="app-container">
       <div className="container-search">
-  <input
-    type="text"
-    placeholder="Tìm kiếm đồ uống..."
-    value={searchTerm}
-    onChange={handleSearchChange}
-  />
-  <i className="fa fa-search search-icon" onClick={handleSearch}></i>
-  {suggestions.length > 0 && (
-    <div className="search-suggestions">
-      {suggestions.map(suggestion => (
-        <div
-          key={suggestion.id}
-          className="search-suggestion-item"
-          onClick={() => handleSuggestionClick(suggestion)}
-        >
-          {suggestion.name}
-        </div>
-      ))}
-    </div>
-  )}
-</div>
+        <input
+          type="text"
+          placeholder="Tìm kiếm đồ uống..."
+          value={searchTerm}
+          onChange={handleSearchChange}
+        />
+        <i className="fa fa-search search-icon" onClick={handleSearch}></i>
+        {suggestions.length > 0 && (
+          <div className="search-suggestions">
+            {suggestions.map(suggestion => (
+              <div
+                key={suggestion.id}
+                className="search-suggestion-item"
+                onClick={() => handleSuggestionClick(suggestion)}
+              >
+                {suggestion.name}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
       <div className="content">
         <FilterSidebar onFilterChange={handleFilterChange} />
         <DrinkGrid
           drinks={currentDrinks}
           onSelect={handleSelectDrink}
           onViewDetails={handleViewDetails}
+          onAddToCart={onAddToCart}
         />
       </div>
       <div className="pagination">
