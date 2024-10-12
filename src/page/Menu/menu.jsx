@@ -42,7 +42,8 @@ const Menu = ({onAddToCart}) => {
         drink.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setSuggestions(filteredSuggestions.slice(0, 5)); 
-      setSuggestions([]);
+    } else {
+      setSuggestions([]); 
     }
   }, [searchTerm]);
 
